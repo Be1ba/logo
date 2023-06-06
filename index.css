@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+}
+
+.first{
+    width: 640px;
+    background: #0079be;
+}
+
+.logo{
+    border: 1px solid white;
+    width: 310px;
+    height: 310px;
+    background: white;
+    border-radius: 50px;
+    position: relative;
+    top: 250px;
+    left: 150px;
+}
+
+.logo::before{
+    position: absolute;
+    content: "";
+    background: #0079be;
+    width: 75px;
+    height: 175px;
+    border-radius: 15px;
+    left: 55px;
+    top: 60px;
+}
+
+.logo::after{
+    position: absolute;
+    content: "";
+    background: #0079be;
+    width: 75px;
+    height: 105px;
+    border-radius: 15px;
+    left: 175px;
+    top: 60px;
+}
+
+.second{
+    width: 640px;
+    background: rgb(249,255,0);
+    background: linear-gradient(129deg, rgba(249,255,0,1) 0%, rgba(236,193,36,1) 0%, rgba(252,176,69,1) 0%, rgba(250,121,34,1) 0%, rgba(242,222,32,1) 100%);
+}
+
+.logo2{
+    width: 310px;
+    height: 310px;
+    background: rgb(249,255,0);
+    background: linear-gradient(0deg, rgba(249,255,0,1) 0%, rgba(236,193,36,1) 0%, rgba(252,176,69,1) 0%, rgba(255,151,5,1) 0%, rgba(253,213,0,1) 100%);;
+    border-radius: 50px;
+    position: relative;
+    top: 250px;
+    left: 150px;
+    overflow: hidden;
+    box-shadow: -20px 0px 50px 0px black;
+}
+
+.logo2::before{
+    position: absolute;
+    content: "";
+    background: #2c2c2e;
+    width: 155px;
+    height: 155px;
+    left: 155px;
+    top: 155px;
+}
+
+.logo2::after{
+    position: absolute;
+    content: "";
+    background: #f1f3f3;
+    width: 155px;
+    height: 155px;
+    top: 155px;
+}
+
+.third{
+    width: 640px;
+}
+
+.logo3{
+    width: 310px;
+    height: 310px;
+    background: #2c2c2e;
+    border-radius: 100%;
+    position: relative;
+    top: 250px;
+    left: 150px;
+    overflow: hidden;
+}
+
+.logo3::before{
+    position: absolute;
+    content: "";
+    background: rgb(249,255,0);
+    background: linear-gradient(90deg, rgba(249,255,0,1) 0%, rgba(236,193,36,1) 0%, rgba(252,176,69,1) 0%, rgba(250,171,18,1) 0%, rgba(255,222,0,1) 100%);
+    width: 310px;
+    height: 62px;
+    top: 62px;
+}
+
+.logo3::after{
+    position: absolute;
+    content: "";
+    background: #f1f3f3;
+    background: rgb(249,255,0);
+    background: linear-gradient(90deg, rgba(249,255,0,1) 0%, rgba(236,193,36,1) 0%, rgba(252,176,69,1) 0%, rgba(250,171,18,1) 0%, rgba(255,222,0,1) 100%);
+    width: 310px;
+    height: 62px;
+    top: 186px;
+}
